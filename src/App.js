@@ -1,11 +1,13 @@
 import React from "react";
 import "./styles.css";
+import User from "./components/user/user.component";
+import Profile from "./components/profile/profile.component";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello CodeSandbox</h1>
-      <h2>Start editing to see some magic happen!</h2>
+      <User userId={5} />
+      <Profile profileId={5} />
     </div>
   );
 }
